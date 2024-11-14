@@ -1,0 +1,140 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header .logo h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e74c3c;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero .hero-content h2 {
+    font-size: 2.5em;
+}
+
+.hero .hero-content p {
+    font-size: 1.2em;
+}
+
+.hero .btn {
+    text-decoration: none;
+    background-color: #fff;
+    color: #e74c3c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* Menu Section */
+.menu {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+/* Promo Section */
+.promo {
+    background-color: #f39c12;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.promo .btn {
+    text-decoration: none;
+    background-color: white;
+    color: #f39c12;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
